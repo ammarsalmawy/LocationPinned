@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc5f58"
+    android:backgroundTint="#636FE69F"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#f59c87"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add location"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:padding="20dp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="40dp"
+        android:layout_marginTop="50dp"
+
+      android:backgroundTint="@color/white"
+        android:background="@drawable/shape1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adding new address to your database"
+        android:paddingLeft="20dp"
+
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:layout_marginBottom="70dp"
+        android:padding="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter an address:"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="19dp"
+        ></TextView>
+    <EditText
+        android:id="@+id/addressInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Type an address here. ex: 1225 4th Ave.."
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:textSize="15dp"
+        android:layout_marginLeft="19dp"
+        android:textColor="@color/black"
+        ></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_to_database"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#3ad1e8"
+        android:text="Add"></Button>
+
+
+    </LinearLayout>
+</LinearLayout>
